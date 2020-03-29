@@ -1,5 +1,5 @@
 # Polygon Map - Aquant.io
-![](http://minimaxir.com/img/video-to-gif-osx/convert_to_gif.gif)
+![](https://github.com/send2moran/AQUANT-Job-Interview/blob/master/media/map.gif?raw=true)
 
 ## Goal
 Create a web app that allows a person to mark places on an interactive map by typing the cords OR place/location to mark.
