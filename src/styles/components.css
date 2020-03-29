@@ -1,0 +1,54 @@
+
+.c-grid {
+  display: grid;
+  grid-template-columns: 1.5fr;
+  grid-gap: 1.5rem;
+  justify-items: center;
+  justify-content: center;
+}
+
+.c-grid div {
+  cursor: hand;
+}
+
+.c-grid div img {
+  transition: all .2s ease-in;
+  filter: grayscale(100%);
+}
+
+.c-grid div:hover img {
+  filter: grayscale(0);
+}
+
+.photo:hover .photo-title{
+  display: block;
+}
+
+.photo .photo-close-btn {
+  top: -2px;
+  right: -2px;
+}
+
+.react-autosuggest__container {
+  position: relative;
+}
+
+@media screen and (min-width: 425px) {
+  .c-grid {
+      grid-template-columns: repeat(2, 0fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .c-grid {
+      grid-template-columns: repeat(3, 0fr);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .c-grid {
+      grid-template-columns: repeat(4, 0fr);
+  }
+}
+
+
